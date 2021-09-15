@@ -1,5 +1,5 @@
 workspace "csc406setup"
-	architecture "x32"
+	architecture "x64"
 	startproject "csc406setup"
 
 	configurations
@@ -56,8 +56,8 @@ project "csc406setup"
 	}
 
 	libdirs { 
-                "%{prj.name}/vendor/glew/lib",
-                "%{prj.name}/vendor/freeglut/lib"                
+               "%{prj.name}/vendor/glew/lib/x64",
+                "%{prj.name}/vendor/freeglut/lib/x64"               
              }
 
 	links
