@@ -2,7 +2,7 @@
 
 ### 64 bit version
 
-1. clone/download repo
+1. clone/download repo (can download the zip file with the green buttont)
 2. run "generate projects batch file"
 3. Open and run the visual studio solution that appears
 
