@@ -6,7 +6,10 @@
 2. run "generate projects batch file"
 3. Open and run the visual studio solution that appears
 
-### Renaming the  project
+### Notes:
+- If you need to add any files to the project, make sure to add both the header and cpp files to the src folder
+
+### Renaming the  project (not required)
 1. Open the premake file then find and replace "csc406setup" with whatever name you want
 2. Run the generate projects batch file - a new folder and visual studio solution will appear.
 3. Copy contents of the "csc406setup" project folder (i.e. src folder, vendor folder, dll file) and paste them into the folder you just created.
